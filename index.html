@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intel Sustainability Summit Check-In</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/image.png">
     <!-- Add Font Awesome CSS -->
     <link
       rel="stylesheet"
@@ -36,11 +37,12 @@
     </div>
     <div class="container">
       <!-- Feedback message -->
-      <p id="greetingMessage"></p>
+      <p><b id="greetingMessage"></b></p>
+      <br>
 
       <!-- Check-in form -->
       <form class="check-in" id="checkInForm">
-        <label for="attendeeName" class="form-label">Attendee Name</label>
+        <label for="attendeeName" class="form-label">Attendee Check-In</label>
         <div class="form-group">
           <div class="input-wrapper">
             <input
@@ -51,7 +53,7 @@
               required
               aria-label="Attendee Name"
             />
-            <label for="teamSelect" class="form-label">Select Team</label>
+            <label for="teamSelect" class="form-label"></label>
             <select
               id="teamSelect"
               name="team"
